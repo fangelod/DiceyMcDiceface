@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# DiceyMcDiceface
 
-You can use the [editor on GitHub](https://github.com/fangelod/DiceyMcDiceface/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains a front end implementation of a dice rolling game leveraging the react javacript framework.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Included in this repository is an already transpiled script file. If you want to just see the final product and play the game, navigate to the url at the top of this repository. You can also go to that page [here](https://fangelod.github.io/DiceyMcDiceface/dist/)
 
-### Markdown
+If you would like to create the transpiled files on your own, it will require having `node` and `npm` installed. I would recommend using a version of `node` that provides a version of `npm` > 5. If you already have it installed you can follow these steps.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fangelod/DiceyMcDiceface/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. Clone the repository to a directory of your choice
+1. Go into that directory and into the folder for the repository and perform an `npm install`
+1. Once the dependencies have been downloaded into the `node_modules` folder you now need to perform an `npm run build`
+1. After a successful build, open up the `index.html` in the `dist` folder in your preferred browser
+1. Play the game!

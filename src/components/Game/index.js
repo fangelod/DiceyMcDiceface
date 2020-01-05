@@ -15,6 +15,9 @@ class Game extends React.Component {
       started: false,
       win: true,
     };
+
+    this.reset = this.reset.bind(this);
+    this.roll = this.roll.bind(this);
   }
 
   initResults() {
@@ -57,7 +60,22 @@ class Game extends React.Component {
           Animations Here
         </div>
         <div>
-          Buttons Here
+          <Button
+            variant={'contained'}
+            disabled={!this.state.started}
+            size={'large'}
+            onClick={() => this.reset()}
+          >
+            Reset
+          </Button>
+          <Button
+            variant={'contained'}
+            disabled={this.state.win}
+            size={'large'}
+            onClick={() => this.roll()}
+          >
+            Roll
+          </Button>
         </div>
         <div>
           Results Here
