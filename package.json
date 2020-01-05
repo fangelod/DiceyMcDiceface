@@ -1,0 +1,41 @@
+{
+  "name": "diceymcdiceface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/dice.js",
+  "scripts": {
+    "start": "webpack --config config/webpack/webpack.dev.js --mode development --watch",
+    "build": "webpack --config config/webpack/webpack.prod.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangelod/DiceyMcDiceface.git"
+  },
+  "author": "Franz Dominno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fangelod/DiceyMcDiceface/issues"
+  },
+  "homepage": "https://github.com/fangelod/DiceyMcDiceface#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/plugin-transform-react-constant-elements": "^7.7.4",
+    "@babel/plugin-transform-react-inline-elements": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-stage-0": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.4",
+    "idempotent-babel-polyfill": "^7.4.4",
+    "immutable": "^4.0.0-rc.12",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
