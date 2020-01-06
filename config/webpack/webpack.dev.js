@@ -32,7 +32,7 @@ module.exports = () => require('./webpack.base')({
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html',
-      inject: 'head',
+      inject: 'body',
     }),
   ],
   devtool: 'eval-source-map',
