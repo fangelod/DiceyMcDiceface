@@ -92,7 +92,7 @@ class Game extends React.Component {
 
     return (
       <div className={classes.container}>
-        <div className={classes.subcontainer}>
+        <div style={{ height: '35%' }}>
           <img
             src={'https://cdn.pixabay.com/photo/2016/03/31/19/19/dice-1294902_960_720.png'}
             style={{
